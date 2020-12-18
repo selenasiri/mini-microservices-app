@@ -8,7 +8,7 @@ app.use(express.json())
 
 app.use(cors())
 
-const posts = { name: 'selena siri' };
+const posts = {}; //{ name: 'selena siri' };
 
 app.get('/posts', (req, res) => {
   res.send(posts);
